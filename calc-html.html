@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="calc-css.css">
+    </head>
+    <body>
+        <header>
+            <h1>Simple calculator</h1>
+        </header>
+
+        <div class="calc-box">
+
+            <label for="first-input">Enter the 1st number</label><br>
+            <input type="number" name="first-input" id="first-input" placeholder="Enter first number">
+
+            <h2>Choose an operation</h2>
+            <div class="buttons">
+            <button type="button" class="btn" id="addition">+</button>
+
+            <button type="button" class="btn" id="subtraction">-</button>
+
+            <button type="button" class="btn" id="multiplication">*</button>
+
+            <button type="button" class="btn" id="division">/</button>
+
+            <button type="button" class="btn" id="modulus">%</button>
+
+            <button type="button" class="btn" id="square">x<sup>y</sup></button> <br><br>
+        </div><br><br>
+
+            <label for="second-input">Enter the 2nd number</label><br>
+            <input type="number" name="second-input" id="second-input" placeholder="Enter second number"><br>
+
+            <div class="end-buttons">
+            <button type="submit" id="submit-btn">Submit</button>
+            <button type="reset"id="reset-btn">Reset</button>
+        </div>
+
+                <dialog id="dialog">
+                    <h2>Your Answer is:</h2>
+                <p id="output"></p>
+                <button id="closeButton">Close</button>
+            </dialog>
+        
+           <script src="calc-js.js"></script> 
+        </div>
+    </body>
+</html>
