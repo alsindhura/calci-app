@@ -1,15 +1,13 @@
 body {
-    background-image: url(Images/bgp.jpg);
+    background-image: url(Images/math-bgp.png);
     height: 100%;
     background-attachment: fixed;
     background-size: cover;
-
-
 }
 header h1 {
     font-size: 45px;
-    color: cornsilk;
-    margin-left: 650px;
+    color: darkblue;
+    text-align: center;
     font-style: italic;
 }
 button:hover{
@@ -24,8 +22,8 @@ button.active{
     border: 5px solid white;
     padding: 40px;
     margin-top: 60px;
-    margin-right: 700px;
-    margin-left: 400px;
+    margin-right: 200px;
+    margin-left: 480px;
     width: 700px;
     height: 705px;
     display: grid;
@@ -33,7 +31,7 @@ button.active{
 }
 label {
     font-size: 30px;
-    color: floralwhite;
+    color: indigo;
     font-weight: 700;
 }
 #first-input {
@@ -41,15 +39,16 @@ label {
     border-radius: 10px;
     border: 2px solid white;
     margin-bottom: 20px;
+    background-color: gainsboro;
 }
 h2{
     font-size: 30px;
-    color: floralwhite;
+    color: indigo;
     font-weight: 700;
 }
 .buttons{
     justify-self: center;
-    border: 5px solid lightblue;
+    border: 5px solid slategray;
     font-size: 20px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -65,6 +64,7 @@ h2{
     width: 83px;
     margin-left: 170px;
     font-weight: 700;
+
 }
 #subtraction,#division,#square{
     font-size: 30px;
@@ -81,6 +81,7 @@ h2{
     border-radius: 10px;
     border: 2px solid white;
     margin-bottom: 20px;
+    background-color: gainsboro;
 }
 .end-buttons {
     display: inline-flex;
@@ -92,6 +93,7 @@ button {
     height: 50px;
     font-size: 20px;
     font-weight: 600;
+    background-color: gainsboro;
 }
 #dialog {
     border: 2px solid whitesmoke;
